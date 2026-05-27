@@ -1,0 +1,19 @@
+# File sistem
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+logs/
+
+# Environment variables (JANGAN pernah commit ini!)
+.env
+.env.local
+
+# Folder dependencies
+node_modules/
+__pycache__/
+*.pyc
+
+# Folder backup lokal
+backup-destination/
