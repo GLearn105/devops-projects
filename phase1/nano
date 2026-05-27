@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#deklarasi variabel (tidak ada spasi di sekitar =)
+NAMA="Glearn"
+UMUR=25
+HARI=$(date +%A) #ambil output dari command
+
+# pakai variabel
+echo "Nama: $NAMA"
+echo "Umur: $UMUR tahun"
+echo "Hari ini: $HARI"
+
+#variable spesial
+echo "Nama script: $0"
+echo "Argumen 1: $1"
+echo "semua argumen: $@"
+echo "jumlah argumen: $#"
