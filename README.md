@@ -8,7 +8,7 @@ HEAD
 ## Progress
 - [x] Phase 1: Linux & Bash
 - [x] Phase 2: Git & Version Control
-- [ ] Phase 3: Docker
+- [x] Phase 3: Docker
 - [ ] Phase 4: CI/CD Pipeline
 - [ ] Phase 5: Cloud (AWS)
 - [ ] Phase 6: Monitoring & Logging
