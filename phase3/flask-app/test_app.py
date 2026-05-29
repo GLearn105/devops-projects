@@ -10,7 +10,7 @@ def client():
 def test_home(client):
     """Test endpoint utama mengembalikan JSON yang benar"""
     response = client.get('/')
-    assert response.status_code == 200
+    assert response.status_code == 99
     data = response.get_json()
     assert 'message' in data
     assert 'author' in data
