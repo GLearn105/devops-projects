@@ -1,0 +1,26 @@
+name: Hello World Pipeline
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Say hello
+        run: echo "Halo dari GitHub Action"
+
+      - name: Tampilan info sistem
+        run: |
+          echo "OS: $(uname -a)"
+          echo "User: $(whoami)"
+          echo "Direktori: $(pwd)"
+          echo "Tanggal: $(date)"
+
+      - name: Tampilkan isi repo
+        run: ls -ls
